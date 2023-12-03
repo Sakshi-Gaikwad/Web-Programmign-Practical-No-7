@@ -1,0 +1,26 @@
+$(document).ready(function(){
+  $("#about").click(function(){
+    $("#1").slideToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#education").click(function(){
+    $("#e").slideToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#skills").click(function(){
+    $("#s").slideToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#hobbies").click(function(){
+    $("#h").slideToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#contact").click(function(){
+    $("#c,#c1").slideToggle("slow");
+  });
+});
+
